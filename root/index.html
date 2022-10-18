@@ -5,96 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="..root/src/css/style.css">
+    <link rel="stylesheet" href="../root/src/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <title>Beersomos - Distribuidora de Cerveja</title>
 </head>
 
 <body>
-    <main>
-        <header>
-            <div class="logo" id="logo">
-                <img class="logoImg" src="../root/images/logo.jpg" width="100px" alt="Beersomos">
+    <header>
+            <div class="box-header">
+                <div class="box-img">
+                    <img src="../root/images/logo.jpg" width="100px" alt="Beersomos">
+                </div>
             </div>
-        </header>
+    </header>
 
     <nav class="box-nav">
         <ul class="listinha">
-            <li>Sobre</li>
-            <li>Chopp</li>
-            <li>Cervejas</li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#chopp">Chopp</a></li>
+            <li><a href="#cervejas">Cervejas</a></li>
         </ul>
     </nav>
 
-    <section class="inicio">
-        <h1 class="tituloPrincipal">Seja bem vindo a Beersomos - Seu delivery de chopp e cerveja</h1>
-        <p class="descricaoPrincipal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos amet iure earum fugiat magnam nobis repellat alias culpa at, blanditiis natus accusantium doloremque. Tenetur, explicabo numquam tempore sit optio delectus est exercitationem, quia ea officia, omnis deserunt consequatur molestiae recusandae cum eos? Harum id maxime error hic cumque modi officiis.</p>
-    </section>
-
-    <div>
-        <section>
-            <article id="Chopp" class="box-chopp">
-                <div class="card-chopp">
-                    <h2>Chopp Pilsen</h2>
-                    <img src="../root/images/pilsen.jpeg" alt="Chopp Pilsen">
-                    <p class="descricaoProduto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta at similique nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis, laborum odio modi magni perferendis tempore natus dolorem. Harum similique in ex.</p>
-                </div>
-
-                <div class="card-chopp">
-                    <h2>Chopp IPA</h2>
-                    <img src="../root/images/ipa.jpeg" alt="Chopp IPA">
-                    <p class="descricaoProduto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta at similique nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis, laborum odio modi magni perferendis tempore natus dolorem. Harum similique in ex.</pc>
-                </div>
-
-                <div class="card-chopp">
-                    <h2>Chopp Stout</h2>
-                    <img src="../root/images/stout.jpeg" alt="Chopp Stout">
-                     <p class="descricaoProduto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta at similique nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis, laborum odio modi magni perferendis tempore natus dolorem. Harum similique in ex.</p>
+    <main>
+        <section class="main-content">
+            <article class="apresentacao">
+                <h1 class="title">Beersomos - Distribuidora de Cerveja</h1>
+                <p class="info">Seja bem vindo a Beersomos - Seu delivery de chopp e cerveja<br> </p>
+                <div id="sobre" class="sobre">
+                    <p class="chopp-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos amet iure earum fugiat magnam nobis repellat alias culpa at, blanditiis natus accusantium doloremque. Tenetur, explicabo numquam tempore sit optio delectus est exercitationem, quia ea officia, omnis deserunt consequatur molestiae recusandae cum eos? Harum id maxime error hic cumque modi officiis.<br> </p>
                 </div>
 
             </article>
-            <article id="Cervejas" class="box-chopp">
-                <div class="card-chopp">
-                    <h2>Sour</h2>
+            <article id="Chopp" class="box-principal">
+                <h2 class="titulo">Chopp</h2>
+                
+                <h2>Chopp Pilsen</h2>
+                    <img src="../root/images/pilsen.jpeg" alt="Chopp Pilsen">
+                    <p class="chopp-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta at similique nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis, laborum odio modi magni perferendis tempore natus dolorem. Harum similique in ex.</p>
+                
+
+                <h2>Chopp IPA</h2>
+                    <img src="../root/images/ipa.jpeg" alt="Chopp IPA">
+                    <p class="descricaoProduto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta at similique nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis, laborum odio modi magni perferendis tempore natus dolorem. Harum similique in ex.</p>
+                
+
+                <h2>Chopp Stout</h2>
+                    <img src="../root/images/stout.jpeg" alt="Chopp Stout">
+                     <p class="descricaoProduto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta at similique nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis, laborum odio modi magni perferendis tempore natus dolorem. Harum similique in ex.</p>
+                
+
+            </article>
+            <article id="Cervejas" class="box-principal">
+                <h2 class="titulo">Cervejas</h2>
+                
+                <h2>Sour</h2>
                     <img src="../root/images/sour.jpeg" alt="Lata de Sour">
                     <p class="descricaoProduto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta at similique nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis, laborum odio modi magni perferendis tempore natus dolorem. Harum similique in ex.</p>
-                </div>
+                
 
-                </div>
-                <div class="card-chopp">
-                    <h2>RedAle</h2>
+                <h2>RedAle</h2>
                     <img src="../root/images/red.jpeg" alt="Garrafa de RedAle">
                     <p class="descricaoProduto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta at similique nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis, laborum odio modi magni perferendis tempore natus dolorem. Harum similique in ex.</p>
-                </div>
-
-    </div>
-    </article>
+                
+       </article>
     </section>
-    </div>
-    </main>
-    <footer>
-        <div class="box-footer">
-            <div class="box-menu">
-                <nav>
-                    <h3>Veja novamente</h3>
+</main>
+
+<footer>
+    <div class="box-footer">
+        <div class="box-menu">
+            <nav>
+                <h3>Veja novamente</h3>
                     <ul class="listinha2">
-                        <li>Sobre</li>
-                        <li>Chopp</li>
-                        <li>Cerveja</li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Chopp</a></li>
+                        <li><a href="#">Cervejas</a></li>
                     </ul>
                 </nav>
-            </div>
-            <p>Venha tomar uma com a gente!</p>
-            <p>Acompanhe nossas aventuras etílicas e entre em contato:</p>
-            <div class="box-icons">
-                <ul class="listinha">
-                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                </ul>
+        </div>
+            <div class="footer-info">
+                <p>Venha tomar uma com a gente!</p>
+                <p>Acompanhe nossas aventuras etílicas e entre em contato:</p>
+                <div class="box-icons">
+                    <ul class="listinha">
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="footer-of-footer">
